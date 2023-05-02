@@ -53,7 +53,7 @@ export const App = () => {
             positivePercentage={countPositiveFeedbackPercentage()}
           />
         ) : (
-          <NotificationMessage message={'There is no feedback'} />
+          <NotificationMessage message={'There is no feedback!'} />
         )}
       </Section>
     </VidgetContainer>
